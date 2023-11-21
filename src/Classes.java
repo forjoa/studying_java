@@ -18,5 +18,8 @@ public class Classes {
         // to create an instance of a class, we have to make it on a "main"
         Car coche1 = new Car(1000, "Tesla");
         coche1.allInfo();
+
+        Car coche2 = new Car(2000, "Supra");
+        coche2.allInfo();
     }
 }
