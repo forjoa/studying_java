@@ -37,10 +37,10 @@ public class Main {
         }
 
         // functions
-        calcular(2, 4);
+        calculate(2, 4);
     }
     // functions: we couldn't create a function inside a function
-    public static void calcular(int a, int b) {
+    public static void calculate(int a, int b) {
         System.out.println("La suma de ambos es: " + (a + b));
     }
 }
