@@ -4,13 +4,27 @@ public class Classes {
         public int hp;
         public String model;
 
-        Car (int hp, String model) {
+        Car(int hp, String model) {
             this.hp = hp;
             this.model = model;
         }
 
         public void allInfo() {
             System.out.println("El coche " + this.model + " tiene " + this.hp + " caballos de fuerza");
+        }
+    }
+
+    static class Person {
+        public String name;
+        public int dni;
+
+        Person(String name, int dni) {
+            this.name = name;
+            this.dni = dni;
+        }
+
+        public void allInfo() {
+            System.out.println("El DNI de la persona " + this.name + " es " + this.dni);
         }
     }
 
@@ -21,5 +35,8 @@ public class Classes {
 
         Car coche2 = new Car(2000, "Supra");
         coche2.allInfo();
+
+        Person persona1 = new Person("Joaquin", 1234567);
+        persona1.allInfo();
     }
 }
