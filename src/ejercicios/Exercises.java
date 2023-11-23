@@ -20,7 +20,7 @@ public class Exercises {
 
         if (z > y) {
             System.out.println(z + " es mayor que " + y);
-        } else if (y > z){
+        } else if (y > z) {
             System.out.println(y + " es mayor que " + z);
         } else {
             System.out.println("Ambos números son iguales ");
@@ -52,13 +52,17 @@ public class Exercises {
         // Exercise 7
         System.out.println("Introduce un número y te diremos su ASCII");
         int numASCII = sc.nextInt();
-        System.out.println("Su letra en ASCII es: " + (char)numASCII);
+        System.out.println("Su letra en ASCII es: " + (char) numASCII);
 
         // Exercise 8
         System.out.println("Introduce un carácter y te diremos el número ASCII");
         String charASCII = sc.next();
-        System.out.println("Su número en ASCII es: " + (int)charASCII.charAt(0));
+        System.out.println("Su número en ASCII es: " + (int) charASCII.charAt(0));
 
         // Exercise 9
+        System.out.println("Introduce el precio de tu producto");
+        double numIVA = sc.nextInt();
+        numIVA += numIVA * ((double) 21 / 100);
+        System.out.println("El precio del producto con el IVA es: " + numIVA);
     }
 }
