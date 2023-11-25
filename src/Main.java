@@ -13,9 +13,9 @@ public class Main {
 
         // conditionals
         if (name.equalsIgnoreCase("joaquin")) {
-          System.out.println("Sí eres bienvenido");
+            System.out.println("Sí eres bienvenido");
         } else {
-          System.out.println("No eres bienvenido");
+            System.out.println("No eres bienvenido");
         }
 
         // for loop
@@ -39,6 +39,7 @@ public class Main {
         // functions
         calculate(2, 4);
     }
+
     // functions: we couldn't create a function inside a function
     public static void calculate(int a, int b) {
         System.out.println("La suma de ambos es: " + (a + b));
